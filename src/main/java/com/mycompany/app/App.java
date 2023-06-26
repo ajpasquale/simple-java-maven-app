@@ -10,6 +10,9 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
+        if(MESSAGE == null)
+        System.out.println("message is null");
+        
         System.out.println(MESSAGE);
     }
 
